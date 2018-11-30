@@ -6,11 +6,11 @@
       <el-form-item label="发件人">
         <el-input v-model="config.sender" placeholder="请输入发件人邮箱地址"></el-input>
       </el-form-item>
-      <el-form-item label="发件人密码" placeholder="请输入发件人邮箱密码">
-        <el-input v-model="config.password" type="password"></el-input>
+      <el-form-item label="发件人密码">
+        <el-input v-model="config.password" type="password" placeholder="请输入发件人邮箱密码"></el-input>
       </el-form-item>
-      <el-form-item label="邮件主题" placeholder="请输入邮件主题">
-        <el-input v-model="config.topic"></el-input>
+      <el-form-item label="邮件主题">
+        <el-input v-model="config.topic" placeholder="请输入邮件主题"></el-input>
       </el-form-item>
 
       <div>

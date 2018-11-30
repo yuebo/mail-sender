@@ -5,13 +5,13 @@
     <div style="text-align: left">
       <el-form label-width="120px" label-position="left">
         <el-form-item label="发送人">
-          <el-input v-model="config.sender" :disabled="true" laceholder="请输入发件人邮箱地址"></el-input>
+          <el-input v-model="config.sender" :disabled="true" placeholder="请输入发件人邮箱地址"></el-input>
         </el-form-item>
         <el-form-item label="密码">
-          <el-input v-model="config.password" :disabled="true" type="password" laceholder="请输入发件人邮箱密码"></el-input>
+          <el-input v-model="config.password" :disabled="true" type="password" placeholder="请输入发件人邮箱密码"></el-input>
         </el-form-item>
-        <el-form-item label="主题" laceholder="请输入邮件主题">
-          <el-input v-model="config.topic" :disabled="true"></el-input>
+        <el-form-item label="主题">
+          <el-input v-model="config.topic" :disabled="true"  placeholder="请输入邮件主题"></el-input>
         </el-form-item>
         <el-form-item label="内容">
           <div v-html="config.template"></div>
