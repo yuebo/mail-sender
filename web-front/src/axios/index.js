@@ -3,7 +3,7 @@ import Vue from 'vue'
 import { Loading } from 'element-ui';
 let loadingInstance = null;
 const $axios = axios.create({
-  baseURL: '/api',
+  baseURL: process.env.BASE_URL+'/api',
   timeout: 60000
 })
 // http响应拦截器
